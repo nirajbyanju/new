@@ -1,0 +1,353 @@
+.auto-containers{
+    margin: 10px auto 0;
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    justify-content: space-between;
+    min-height: calc(100vh - 50px);
+    align-items: flex-start;
+}
+
+.main{
+    margin: 10px auto 0;
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    min-height: calc(100vh - 50px);
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.opp-list{
+    width: 370px;
+    background: #f6f8fa;
+    border-radius: 10px;
+    position: sticky;
+    top: 115px;
+    max-height: calc(100vh - 115px);
+    overflow-y: auto;
+}
+.detail-list{
+    width: calc(100% - 390px);
+    border-top: 6px solid #0073e6;
+    border-radius: 8px 8px 0 0;
+    min-width: 650px;
+}
+.single_profile{
+    padding: 18px 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background: #fff;
+    border-radius: 4px;
+    margin-right: 5px;
+    box-shadow: 0 1px 4px #6d87a624;
+    border: 1.5px solid transparent;
+}
+.opp_content{
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+     gap: 30px;
+}
+
+.opp-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid rgba(186,203,213,.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+.opps_content h2{
+    color: #0073e6;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    transition: .4s;
+    cursor: pointer;
+}
+.opps_content p{
+    font-size: 12px;
+    color: #1c4980e6;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.opp-info{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+.opp-view{
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #dde5ea;
+    height: 30px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+}
+.opp-view i{
+    margin-right: 10px;
+}
+.opp-time{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+}
+.opp-time i{
+    margin-right: 10px;
+}
+.comapany-intro{
+    position: relative;
+    cursor: pointer;
+    background: #FFFFFF;
+    padding: 20px;
+}
+.company-intros{
+    width: auto;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.company-intro-in{
+    display: flex;
+    align-items: center;
+}
+.company-intro-img{
+    width: 124px;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #dde5ea;
+    border-radius: 8px;
+}
+.company-intro-img img{
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+}
+.company-intro-contant{
+    width: calc(100% - 124px);
+    padding-left: 20px;
+}
+.company-intro-contant h1{
+    transition: .4s;
+    font-weight: 600;
+    color: #1c4980;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+.company-intro-contant span{
+    margin-top: 8px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.company-intro-contant-a{
+    display: inline-flex;
+    align-items: center;
+    color: #1c4980;
+    transition: .3s;
+}
+
+.company-intro-contant-a i , .company-loc i{
+    margin-right: 10px;
+}
+.company-location{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+.company-loc{
+    font-size: 16px;
+    color: #1c4980;
+    font-weight: 500;
+    max-width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+}
+
+.company-loc i{
+    width: auto;
+    height: auto;
+    
+}
+.single-wrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+.company-tag{
+    transition: .3s;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 33px;
+    margin-top: 15px;
+    display: flex;
+}
+.company-tags-ng a{
+    font-size: 12px;
+    line-height: 100%;
+    margin-right: 12px;
+    padding: 0 12px;
+    white-space: nowrap;
+    transition: .3s;
+    color: #1c4980!important;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 500;
+    height: 30px;
+    align-items: center;
+    background: rgba(244,246,249,.7);
+    border-radius: 50px;
+}
+
+.item-regicon{
+    display: flex;
+    align-items: center;
+    width: 33.333%;
+    padding: 10px 15px;
+    min-width: 300px;
+}
+.iemas_opp{
+    display: flex;
+    align-items: center;
+    width: 70.333%;
+    padding: 10px 15px;
+}
+.reg-boxs{
+    width: 700px;
+}
+.reg-box{
+    background: #ddecf3;
+    display: flex;
+    padding: 5px 0;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+.item-icons{
+    display: flex;
+    align-items: center;
+}
+.item-icons i{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #0073e6;
+    border-radius: 8px;
+    border: 1px solid #dde5ea;
+    background: #FFFFFF;
+}
+.item-details{
+    font-size: 14px;
+    font-weight: 500;
+    width: calc(100% - 30px);
+    line-height: 110%;
+    padding-left: 10px;
+    color: #3e6493;
+    display: block;
+}
+.item-details strong{
+    display: block;
+    margin-top: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1c4980;
+}
+
+.reg-descriptions{
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #ddecf3;
+    display: block;
+}
+
+.reg-description h2{
+    margin-bottom: 20px;
+    color: #1c4980;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 0 30px;
+    border-left: 4px solid #0073e6;
+    padding-left: 15px;
+    position: relative;
+    font-weight: 600;
+}
+.descripton-box{
+    
+    padding-left: 20px;
+    margin-top: -30px;
+    color: #1c4980;
+    content: "";
+    border-left: 3px dashed #0073e6;
+    border-color: inherit;
+}
+
+
+.button-vacancy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.company-tags-ng{
+    display: flex;
+    flex-wrap: wrap;
+}
+.iemas_oppss {
+    display: flex;
+    align-items: center;
+    width: 49.3%;
+    padding: 10px 15px;
+  }
+
+    
+  
+  @media (max-width: 1024px) {
+    .opp-list {
+        overflow-y: none;
+        width: 80%;
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+
+      .detail-list {
+        width: 85%;
+      }
+      .reg-boxs {
+        width: 100%;
+      }
+      .main{
+        justify-content: center;
+      }
+      .detail-list {
+        width: 85%;
+        min-width: unset;
+      }
+      .company-tag {
+        height: 71px;
+    }
+    
+  }
+  @media (max-width: 768px) {
+    
+  }
+  @media (max-width: 600px) {
+    
+  }

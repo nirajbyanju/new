@@ -1,0 +1,468 @@
+.auto-container{
+    max-width: 1180px;
+}
+.main-header-postion{
+    position: relative;
+    z-index: 99;
+}
+.nav-bar {
+    width: 100%;
+    border-bottom: 1px solid rgba(221,229,234,.5);
+    box-shadow: 0 -1px 4px #00000040;
+    background: #fff;
+    height: 53px;
+    position: relative;
+    z-index: 99;
+    transition: .4s;
+}
+
+.header-logo img {
+    width: 90px;
+}
+.whole-menu p, .menu-list p{
+   color: #3e6493;
+}
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 5px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    order: 2;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    order: 1;
+    display: flex;
+    align-items: center;
+}
+
+.auto-container { 
+    margin: auto;
+}
+
+.search-section {
+    position: relative;
+    margin-left: 30px;
+    line-height: 50px;
+}
+
+.search-section span {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    font-size: 16px;
+    color: #1c4980e6;
+}
+
+.search-section input {
+    height: 36px;
+    background: rgba(244, 246, 249, .5);
+    border: 1px solid rgba(28, 73, 128, .1);
+    border-radius: 8px;
+    padding: 0 10px 0 30px;
+    width: 300px;
+    margin: 0;
+    color: #1c4980e6;
+    box-sizing: border-box;
+}
+
+.main-menu-site {
+    display: flex;
+
+    margin-top: 5px;
+}
+
+.icon-menu-showing {
+    height: 24px;
+    width: 24px;
+    background: url('../../images/menu-spirit-icons.svg') no-repeat;
+    background-position: 0 0;
+}
+
+.icon-learn {
+    background-position: 0px -34px;
+    transition: .4s;
+}
+
+.icon-pratice {
+    background-position: 0px -68px;
+    transition: .4s;
+}
+
+.icon-mentorship {
+    background-position: 0px -170px;
+    transition: .4s;
+}
+
+.icon-job {
+    background-position: 0px -136px;
+    transition: .4s;
+}
+.icon-Blogs {
+    background-position: 0px -100px;
+    transition: .4s;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3px;
+    margin: 0 12px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: .4s;
+    color: #3e6493;
+    height: 100%;
+}
+
+.margin-list a i {
+    margin-right: 5px;
+}
+
+.menu-list a {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    transition: .4s;
+    color: #3e6493;
+}
+
+.menu-list a i {
+    padding-bottom: 3px;
+}
+
+.menu-list {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+}
+.menu-list:hover .icon-Blogs {
+    background-position: -33px -100px;
+}
+
+.menu-list:hover .icon-learn {
+    background-position: -33px -34px;
+}
+
+.menu-list:hover .icon-pratice {
+    background-position: -33px -68px;
+}
+
+.menu-list:hover .icon-mentorship {
+    background-position: -33px -170px;
+}
+
+.menu-list:hover .icon-job {
+    background-position: -33px -136px;
+}
+
+.menu-list:hover a::before,
+.menu-list:hover a::after {
+    width: 100%;
+}
+
+.menu-list a::before,
+.menu-list a::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: #3e6493;
+    transition: width 0.5s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.menu-list a:hover {
+    color: #119DA4;
+}
+
+.menu-list a::before {
+    transform: translateX(-50%);
+}
+
+.menu-list a::after {
+    transform: translateX(-50%);
+}
+
+.menu-list a i:hover {
+    color: black;
+    transition: .4s;
+}
+
+.menu-list a i {
+    color: #3e6493;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.menu-list a i,
+.menu-list a p {
+    margin: 0;
+    padding: 0;
+    transition: .4s;
+}
+
+.sigin-part {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    display: inline-block;
+    position: relative;
+}
+
+.admin-login {
+    height: 34px;
+    border-radius: 50px;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    background: linear-gradient(to right, #1c4980 0%, #1c4980 50%, #062d5e 50%, #062d5e 100%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.5s ease-in-out;
+    padding: 0 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.admin-login:hover,
+.user-login:hover {
+    background-position: left;
+}
+
+.admin-login img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.admin-login img {
+    margin-right: 6px;
+}
+.user-login_a{
+    color: #050404 !important;
+}
+.user-login {
+    height: 34px;
+    border-radius: 50px;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    background: linear-gradient(to right, #0c4994 0%, #0c4994 50%, #0073e6 50%, #0073e6 100%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.5s ease-in-out;
+    padding: 0 15px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+}
+
+.user-logins{
+    height: 34px;
+    border-radius: 50px;
+    justify-content: center;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    background: linear-gradient(to right, #0c4994 0%, #0c4994 50%, #0073e6 50%, #0073e6 100%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.5s ease-in-out;
+    padding: 0 15px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+}
+.user-login img {
+    margin-left: 6px;
+    height: 14px;
+    filter: brightness(0) invert(1);
+    margin-left: 5px;
+}
+
+.menu-all-icon {
+    margin: 0 9px;
+
+}
+#logoutMenu{
+    position: absolute;
+    background-color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px){
+    .top-inner{
+        margin: 0 10px;
+    }
+    .search-section{
+        display: none;
+    }
+    .header-main{
+        margin-right: 20px;
+    }
+    .search-section input{
+        width: 165px;
+    }
+    /* .admin-login{
+        display: none;
+    }
+    .user-login{
+        display: none;
+    } */
+    .top-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+}
+@media (max-width: 767px) {
+
+
+    .search-section{
+        display: none;
+    }
+
+    .main-menu-site {
+        margin-right: 10px;
+    }
+
+    .sigin-part {
+        margin-left: auto;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+
+  
+
+    .main-menu-site {
+        display: none;
+    }
+
+    .sigin-part {
+        margin-left: auto;
+    }
+
+    .menu-all-icon {
+        display: block;
+    }
+    .menu-all-icon {
+        margin-left: 9px;
+        margin-right: 20px;
+      }
+      .header-main{
+        line-height: 50px;
+      }
+
+}
+
+
+
+
+
+
+
+/* top-header css of header */
+.header-top{
+    position: relative;
+    width: 100%;
+    background: #0d1927;
+    padding: 12px 0px;
+}
+.top-inner{
+    margin: 0 5px;
+    display: block;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact-location, .time-to-open, .contact-number a{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    filter: brightness(0) invert(1);
+    margin-right: 35px;
+    text-decoration: none;
+}
+.inner-menu-logout a:hover{
+    background: #0073e6;
+}
+.contact-location i, .time-to-open i, .contact-number i{
+    color: #3854A5;
+    margin-right: 10px;
+
+}
+.contact-number a:hover{
+    color: #3854A5;
+}
+.top-inner-social-media{
+    display: flex;
+}
+.social-media-icon a{
+    margin-right: 25px;
+}
+.social-media-icon i{
+    filter: brightness(0) invert(1);
+}
+.top-inner-contact{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.top-header-signin a{
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+    
+}
+.top-header-signin a:hover{
+    color: #3854A5;
+}
+.top-header-signin a i{
+ color: #3854A5;
+ margin-right: 5px;
+}
+
+.social-media-icon a i:hover{
+    color: #3854A5;
+}
