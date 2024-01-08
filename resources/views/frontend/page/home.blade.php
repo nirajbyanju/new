@@ -104,7 +104,7 @@
                                     <div class="home-text-showing-text-heading"> 
                                         <h1>
                                             <span>connecting</span>
-                                            Learing, Pratice, Recruiters</h1>
+                                            Learing, Pratice</h1>
                                         <p>But I must explainto you how all this mistaken idea of
                                             denouring pleasure and praising</p>
                                     </div>
