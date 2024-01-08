@@ -1,0 +1,207 @@
+/* Common styles */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+::-webkit-scrollbar {
+  width: 0.25rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #797979;
+  transition: all 0.5s ease-in-out;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: #222224;
+  }
+  
+  ::-webkit-scrollbar-track {
+  background: #f9f9f9;
+  }
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #ffffff;
+  margin: 0 auto!important;
+  max-width: 1600px;
+  font-family: 'inter', sans-serif!important;
+}
+html {
+  background: rgba(39,73,125,.07);
+  font-size: 14px;
+  line-height: 1.625;
+  font-family: 400;
+  font-family: 'inter', sans-serif!important;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'inter', sans-serif!important;
+}
+p, button, span, div, a{
+  font-family: 'inter', sans-serif!important;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+  transition-duration: .7s;
+  transition-property: all;
+}
+/** subscribe-section **/
+
+.subscribe-section{
+  position: relative;
+  padding: 90px 0px;
+  margin-bottom: 35px;
+}
+
+.subscribe-section .pattern-layer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.subscribe-section .text{
+  position: relative;
+  display: block;
+  padding: 0px 0px 0px 100px;
+  margin-top: 3px;
+}
+
+.subscribe-section .text .icon-box{
+  position: absolute;
+  left: 0px;
+  top: -3px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #fff;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.subscribe-section .text h2{
+  position: relative;
+  display: block;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 900;
+  margin-bottom: 3px;
+}
+
+.subscribe-section .text p{
+  color: #061a3a;
+}
+
+.subscribe-section .subscribe-form .form-group{
+  position: relative;
+  margin: 0px;
+}
+
+.subscribe-section .subscribe-form .form-group input[type='email']{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 70px;
+  padding: 10px 200px 10px 30px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 35px;
+  font-size: 15px;
+  color: #808080;
+  transition: all 500ms ease;
+}
+
+.subscribe-section .subscribe-form .form-group button{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* frontend vacancy, opporunity, learn pattern */
+.anim-icon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  max-width: 1920px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.anim-icon .anim-icon-1 {
+  left: 200px;
+  top: 275px;
+  width: 12px;
+  height: 13px;
+}
+.anim-icon .icon {
+  position: absolute;
+  background-repeat: no-repeat;
+}
+.rotate-me {
+  animation-name: rotateme;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-name: rotateme;
+  -webkit-animation-duration: 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotateme;
+  -moz-animation-duration: 30s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: rotateme;
+  -ms-animation-duration: 30s;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  -o-animation-name: rotateme;
+  -o-animation-duration: 30s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+}
+.pattern-1 {
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  width: 164px;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+.pattern-2 {
+  position: absolute;
+  right: 782px;
+  top: 289px;
+  width: 50px;
+  height: 150px;
+  background-repeat: no-repeat;
+}
+
+.pattern-3 {
+  position: absolute;
+  top: 245px;
+  left: 76%;
+  width: 174px;
+  height: 174px;
+  background-repeat: no-repeat;
+}
